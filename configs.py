@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
+    API_ID = int(os.getenv("API_ID", "22096484"))
+    API_HASH = os.getenv("API_HASH", "6d7fba84db4aac513be9536f855422ac")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5958831339:AAERsQr59FOGiMcp4KlLtQ0lhIuWE2_35d4")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "botx")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLoBuxysahmjpmj7EB65I5GlieKbvhf-N_X_sxRj4ZnfI32QaXAdA3vHzCwZOXYhjNd_MkI36SeNJT7DUsvVWTIRkcPNegzmk_MhM_5Hx4HTxW7MCNL2cOtwzbupJz9Y2tyfH9Vc22-M76D_z9NzdZYE9f-YAleCDZRo6XjLU7DlSjEieXUkil6KdKmGtk8uIJEE6hDUVQGsdXeOPODZmCui9mjpgVakP5I-AEzSq228zHP7FMM-ErXdZvckTCt2QLDyA_t5vZ66tIb5lDA4LvHy03lUOBSY73BLrJac99VYbtR6Bw7XjUioyF9U8UjRoXPSmH3RoyU_hh8xV4Eyo2abjfQ=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001855221318")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Botx_search_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1798135938"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "backupcharlie")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -23,18 +23,18 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/7d357b72c29a6aa21fb78.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/102da1506c0cf553a8226.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001748422807")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://babu:babu@cluster0.mqwkii4.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001853287952"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "updatecharlie")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
